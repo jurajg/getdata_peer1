@@ -1,8 +1,8 @@
 ## tidy.txt
 
-This dataset contains mean values of extracted variables aggregated by Activity and SubjectID.
-Data is aggregated from extracted.txt dataset, which was obtain by selecting only mean and standard
-deviations of variables from original dataset.
+This dataset contains mean of extracted variables aggregated by Activity and SubjectID.
+Data is aggregated from extracted.txt dataset, which was obtain by selecting only mean
+and standard deviations of variables from original dataset.
 
 ## How to load data
 
