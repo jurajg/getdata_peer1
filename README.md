@@ -15,10 +15,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ##List of files
 
-run_analysis.R - script that does data merging and creates new tidy dataset.
-extracted.txt - new dataset with mean and standard deviation of variables extracted from original data sets
-tidy.txt - new dataset in text table format (read.table defaults)
-CodeBook.md - description of tidy.txt
+- run_analysis.R - script that does data merging and creates new tidy dataset.
+
+- extracted.txt - new dataset with mean and standard deviation of variables extracted from original data sets
+
+- tidy.txt - new dataset in text table format (read.table defaults)
+
+- CodeBook.md - description of tidy.txt
 
 ##Instructions to run the script
 
@@ -42,6 +45,6 @@ Example of loading the dataset in R: extracted <- read.table('extracted.txt');
 
 
 ## tidy.txt
-This file contains average values for every variable from extracted.txt by subject
+This file contains average values for every variable from extracted.txt aggregated by subject
 and activity. The file can be read in R using defaults and function read.table.
 		   
