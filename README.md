@@ -3,6 +3,7 @@ getdata_peer1
 coursea.org Getting and Cleaning Data peer assessment 1
 
 This is my submission for peer assessment 1 for course Getting and Cleaning data.
+
 author of submissison: Juraj Galbavy
 
 ##Source of Data
@@ -29,7 +30,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 2.run command: source run_analysis.R
 
-3.The zip file will be then extracted into the working directory and two new files, extracted.txt and tidy.txt datasets should be created.
+3.The zip file will be then extracted into the working directory and two new files, extracted.txt and tidy.txt datasets should be created again in working directory.
 
 ## extracted.txt
 This dataset contains mean and standard deviations of variables from original
