@@ -36,9 +36,11 @@ This dataset contains mean and standard deviations of variables from original
 dataset, this file can be read in R using read.table with default values.
 
 There are 81 columns total:
-- "tBodyAcc-mean()-X" ... "fBodyBodyGyroJerkMag-meanFreq()" - those are columns from original merged train and test datasets. Test is merged first, train last.
+- "tBodyAcc-mean()-X" ... "fBodyBodyGyroJerkMag-meanFreq()" - columns 1..79: those are columns from original merged train and test datasets. *Test* dataset is merged first, *train* dataset last.
 
-- with 2 last SubjectID and Activity, where SubjectID is a number of test subject for a measurement in a row and Activity is a text name for an activity performed.
+- SubjectID - column number 80: ID number of test subject for a measurement in a row
+
+- Activity - column number 81: text name for an activity performed
 
 ================
 Example of loading the dataset in R: extracted <- read.table('extracted.txt');
@@ -47,4 +49,4 @@ Example of loading the dataset in R: extracted <- read.table('extracted.txt');
 ## tidy.txt
 This file contains average values for every variable from extracted.txt aggregated by subject
 and activity. The file can be read in R using defaults and function read.table.
-		   
+Description of content of this file is in CodeBook.md.
