@@ -1,8 +1,7 @@
-getdata_peer1
+coursea.org Getting and Cleaning Data course project
 =============
-coursea.org Getting and Cleaning Data peer assessment 1
 
-This is my submission for peer assessment 1 for course Getting and Cleaning data.
+This is my course project submission for course Getting and Cleaning data.
 
 author of submissison: Juraj Galbavy
 
