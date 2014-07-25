@@ -1,4 +1,4 @@
-coursea.org Getting and Cleaning Data course project
+Getting and Cleaning Data course project
 =============
 
 This is my course project submission for course Getting and Cleaning data.
